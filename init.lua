@@ -421,6 +421,11 @@ require('lazy').setup({
           --   mappings = {
           --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
           --   },
+          layout_config = {
+            width = { padding = 1 },
+            height = { padding = 1 },
+            preview_width = 0.65,
+          },
         },
         -- pickers = {}
         extensions = {
